@@ -1,0 +1,21 @@
+.maam{
+    margin: 100px;
+    background-color:#ecbbbb;
+    
+    margin-left: 50%;
+    
+}
+.h1{
+    color:rgb(0, 0, 0);
+    margin-left: 8px;
+}
+.bt{
+    background-color: rgb(184, 125, 240);
+     color: rgb(24, 9, 3);
+     border-radius: 30px;
+     box-shadow: 20px palegreen;
+}
+.bt:hover{
+    color: rgba(248, 237, 86, 0.623);
+
+}
