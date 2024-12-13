@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark and Light Theme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+/* Light theme */
+    .light-theme {
+        background-color: white;
+        color: black;
+    }
+    
+    /* Dark theme */
+    .dark-theme {
+        background-color: black;
+        color: white;
+    }
+    
+    /* Button style */
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    </style>
+<body class="light-theme">
+    <h1>Welcome to My Website</h1>
+    <button id="theme-toggle-btn">Toggle Theme</button>
+
+    
+</body>
+
+<script src="promise.js"></script>
+
+
+
+<!-- <script>
+const ToggleButton = document.getElementById("theme-toggle-btn");
+const body = document.body;
+
+ToggleButton = addEventListener('click',function(){
+// Toggle between light-theme and dark-theme classes
+if (body.classList.contains('light-theme')) {
+        body.classList.remove('light-theme');
+        body.classList.add('dark-theme');
+    }else {
+    body.classList.remove('dark-theme');
+    body.classList.add("light-theme")
+}
+
+}
+)
+</script> -->
+</html>
